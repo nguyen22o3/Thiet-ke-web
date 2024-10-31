@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bài tập 1</title>
+        <style>
+            li:first-child {color: red;}
+            /* Chọn phần tử đầu tiên trong một nhóm các phần tử cùng cấp (anh em), chúng ta sử dụng :first-child. */
+
+
+            input:checked+label {
+                color: red;
+            }
+            /* Định dạng label khi người dùng đánh dấu chọn */
+
+            input[type=":checkbox"]:checked {
+                box-shadow: 0 0 0 3px hotpink;
+            }
+             /* Định dạng ô chọn khi được chọn */
+
+            p::first-letter {
+                color: white;
+                background-color: #333;
+                border-radius: 2px;
+                font-size: 200%;
+                box-shadow: 3px 3px 0 yellow;
+                padding: 6px 3px;
+                margin-right: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <p>Một số nội dung cần học để làm web font-end</p>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li>React</li>
+        </ul>
+        <div>
+            <input type="checkbox" name="my-checkbox" id="opt-in">
+            <label for="opt-in">Chọn</label>
+        </div>
+    </body>
+</html>
