@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bài tập 1</title>
+        <style>
+            /* Ví dụ về màu chữ, màu nền */
+            blockquote{
+                border: 4px dashed;
+                color: #508C19;
+                background-color: #B4BDE6;
+            }
+            /* Ví dụ về giới hạn vùng nền */
+            blockquote {
+                border: 4px dashed;
+                padding: 10px;
+                color: #043527;
+                background-color:#7ccfaf;
+                background-clip: border-box;
+            }
+            /* Ví dụ về làm mờ một phần tử */
+            h1{
+                color:  #00FF00;
+                background-color: #FFFFFF;
+                opacity: .25;
+                /* Giá trị của thuộc tính opacity càng nhỏ thì phần tử càng mờ, giá trị 0 là mờ nhất, giá trị 1 là rõ nhất. */
+            }
+        </style>
+    </head>
+    <body>
+        <blockquote>
+            <p>Đây là ví dụ về màu chữ<em>(foreground color)</em></p>
+            <p>Đây là ví dụ về background-clip</p>
+        </blockquote>
+        <h1>Ví dụ về làm mờ 1 phần tử</h1>
+    </body>
+</html>
