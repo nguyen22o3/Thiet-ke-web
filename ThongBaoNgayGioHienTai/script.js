@@ -34,3 +34,9 @@ function showDateTime() {
     var timeString = "Hôm nay là: " + daylist[day] + " và thời gian hiện tại là: " + hour + prepand + ":" + formatTime(minute) + ":" + formatTime(second);
     document.getElementById("time").innerText = timeString;
 }
+
+function formatTime(time) {
+    return (time < 10) ? "0" + time : time;
+}
+
+showDateTime();
