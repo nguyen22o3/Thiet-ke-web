@@ -31,12 +31,8 @@ function showDateTime() {
         }
     }
 
-    var timeString = "Hôm nay là: " + daylist[day] + " và thời gian hiện tại là: " + hour + ":" + formatTime(minute) + ":" + formatTime(second )+prepand ;
+    var timeString = "Hôm nay là: " + daylist[day] + " và thời gian hiện tại là: " + hour + ":" + minute + ":" + second +prepand ;
     document.getElementById("time").innerText = timeString;
-}
-
-function formatTime(time) {
-    return (time < 10) ? "0" + time : time;
 }
 
 setInterval(showDateTime, 1000);
