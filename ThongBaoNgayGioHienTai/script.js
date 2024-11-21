@@ -31,7 +31,7 @@ function showDateTime() {
         }
     }
 
-    var timeString = "Hôm nay là: " + daylist[day] + " và thời gian hiện tại là: " + hour + prepand + ":" + formatTime(minute) + ":" + formatTime(second);
+    var timeString = "Hôm nay là: " + daylist[day] + " và thời gian hiện tại là: " + hour + ":" + formatTime(minute) + ":" + formatTime(second )+prepand ;
     document.getElementById("time").innerText = timeString;
 }
 
