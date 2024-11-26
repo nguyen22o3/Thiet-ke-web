@@ -44,7 +44,6 @@ main {
 h3 {
   color: #7A0002;
   margin-top: 2.5em;
-  padding-left: 1e;
 }
 p.more {
   font-family: verdana, sans-serif;
@@ -53,7 +52,6 @@ p.more {
 /* aside "hours" styles */
 aside {
   background-color: #F6F3ED;
-  padding: 1em;
   padding-left: 45px;
 }
 /* misc styles */
@@ -70,5 +68,4 @@ h2 {
   color: #783F27;
   font-family: verdana, sans-serif;
   font-size: .8em;
-  text-transform: uppercase;
 }
