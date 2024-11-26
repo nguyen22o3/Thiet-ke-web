@@ -11,8 +11,6 @@ a:focus, a:hover, a:active { color: #F9AB33; }
 /* header styles */
 header {
   color: white;
-  background:  url(images/croissants_banner.jpg) no-repeat center center;
-  background-size: cover;
   text-align: center;
   margin-top: 1.5em;
   height: 15em;
@@ -35,8 +33,6 @@ nav ul li a:focus, nav ul li a:hover, nav ul li a:active {
 }
 nav ul li {
   font-size: .8em;
-  text-transform: uppercase;
-  letter-spacing: .2em;
 }
 /* main "products" styles */
 main {
@@ -44,33 +40,21 @@ main {
   background-color: white;
   line-height: 1.8em;
   color: #555;
-  margin: 2.5%;
-  padding: 1em;
-  padding: 1em;
-  border: double 4px #EADDC4;
-  border-radius: 25px;
 }
 h3 {
-  text-transform: uppercase;
-  letter-spacing: .2em;
   color: #7A0002;
   margin-top: 2.5em;
-  border-top: 1px solid;
-  border-left: 3px solid; 
   padding-left: 1e;
 }
 p.more {
   font-family: verdana, sans-serif;
-  text-transform: uppercase;
   font-size: .8em;
 }
 /* aside "hours" styles */
 aside {
-  background: url(images/scallop.png) repeat-y left top;
   background-color: #F6F3ED;
   padding: 1em;
   padding-left: 45px;
-  border-top-right-radius: 25px;
 }
 /* misc styles */
 footer {
@@ -88,20 +72,3 @@ h2 {
   font-size: .8em;
   text-transform: uppercase;
 }
-html {
-    box-sizing: border-box;
-    }
-    * {
-    box-sizing: inherit;
-    }
-header h1 {
-    margin-top: 1.5em;
-    }
-    nav ul {
-    margin: 0;
-    }
-    a {
-        text-decoration: none;
-        border-bottom: 1px dotted;
-        padding-bottom: .1em;  
-        }
