@@ -3,10 +3,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f4f4f4;
+    background-image: url('https://www.didongmy.com/vnt_upload/news/03_2024/hinh-nen-4k-la-gi-Didongmy.jpg');
 }
 
 h1 {
-    color:blue;
+    color:pink;
     font-family: Arial, sans-serif ;
+}
+#time {
+    color: pink;
 }
